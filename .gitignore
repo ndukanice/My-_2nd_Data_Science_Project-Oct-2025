@@ -9,13 +9,13 @@ venv/
 .venv/
 *.egg-info/
 
-# Data
-data/raw/*.csv
-data/processed/*.csv
+# Data - COMMENT OUT OR REMOVE THESE LINES FOR DEPLOYMENT
+# data/raw/*.csv
+# data/processed/*.csv
 
-# Models
-models/*.pkl
-models/*.json
+# Models - COMMENT OUT OR REMOVE THIS LINE FOR DEPLOYMENT
+# models/*.pkl
+# models/*.json
 
 # Jupyter
 .ipynb_checkpoints
@@ -34,3 +34,4 @@ Thumbs.db
 *.jpg
 *.pdf
 !clv_analysis_report.png
+!mypic.jpg
